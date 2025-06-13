@@ -119,6 +119,7 @@ class PageController extends Controller
             'rujukan-gawat-darurat' => 'Content of Rujukan Gawat Darurat page',
             'jadwal-dokter' => 'Content of Jadwal Dokter page',
             'informasi-publik' => 'Content of Informasi Publik page',
+            'standar-pelayanan' => 'Content of Standar Pelayanan page',
 
         ];
 

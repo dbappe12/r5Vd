@@ -203,6 +203,7 @@ $currentMonth = Carbon::now();
                                         <li><a href="{{ url('page/rawat-jalan') }}" class="{{ request()->is('page/rawat-jalan') ? 'dropdown current' : '' }}">Rawat jalan</a></li>
                                         <li><a href="{{ url('page/rawat-inap') }}" class="{{ request()->is('page/rawat-inap') ? 'dropdown current' : '' }}">Rawat Inap</a></li>
                                         <li><a href="{{ url('page/pelayanan-penunjang') }}" class="{{ request()->is('page/pelayanan-penunjang') ? 'dropdown current' : '' }}">Pelayanan Penunjang</a></li>
+                                        <li><a href="{{ url('page/standar-pelayanan') }}" class="{{ request()->is('page/standar-pelayanan') ? 'dropdown current' : '' }}">Standar Pelayanan</a></li>
                                         <li><a href="{{ url('page/fasilitas') }}" class="{{ request()->is('page/fasilitas') ? 'dropdown current' : '' }}">Fasilitas</a></li>                                   
                                     </ul>
                                 </li>
@@ -221,7 +222,8 @@ $currentMonth = Carbon::now();
                                     <a href="{{ url('/') }}">Informasi Publik</a>
                                     <ul>
                                         <li><a href="{{ url('page/jadwal-dokter') }}" class="{{ request()->is('page/jadwal-dokter') ? 'dropdown current' : '' }}">Jadwal Dokter</a></li>
-                                        <li><a href="{{ url('page/informasi-publik') }}" class="{{ request()->is('page/informasi-publik') ? 'dropdown current' : '' }}">Informasi Publik</a></li>                                       
+                                        <li><a href="{{ url('page/informasi-publik') }}" class="{{ request()->is('page/informasi-publik') ? 'dropdown current' : '' }}">Informasi Publik</a></li>
+                                        <li><a href="https://www.lapor.go.id">Pengaduan</a></li>                                       
                                         <li><a href="{{ url('berita') }}" class="{{ request()->is('galeri-foto*') ? 'dropdown current' : '' }}">Seputar {{config('app.nama_pic')}}</a></li>                                      
                                     </ul>
                                 </li>
@@ -432,7 +434,7 @@ $currentMonth = Carbon::now();
             <p>Hi Kamu yang disana!<br>Ada yang bisa saya bantu?</p>
         </div>
         <div class="whatsapp-chat-footer">
-            <a href="https://api.whatsapp.com/send?phone=6282267205866&text=Salam%20Sehat%20Bapak%2FIbu%20admin%2C%20Izin%20sebelumnya%20saya%20mau%20bertanya." target="_blank" class="whatsapp-start-chat">Mulai Percakapan</a>
+            <a href="https://api.whatsapp.com/send?phone=6281361640048&text=Salam%20Sehat%20Bapak%2FIbu%20admin%2C%20Izin%20sebelumnya%20saya%20mau%20bertanya." target="_blank" class="whatsapp-start-chat">Mulai Percakapan</a>
         </div>
     </div>
 </div>

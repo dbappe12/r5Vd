@@ -63,6 +63,7 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'rujukan-gawat-darurat' => 'Rujukan Gawat Darurat',
         'jadwal-dokter' => 'Jadwal Dokter',
         'informasi-publik' => 'Informasi Publik',
+        'standar-pelayanan' => 'Standar Pelayanan',
 
     ];
 
