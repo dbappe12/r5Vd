@@ -175,10 +175,14 @@ $currentMonth = Carbon::now();
                                                 <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi & Misi</a></li>
                                             </ul>
                                         </li> -->
+                                        <li><a href="{{ url('page/sejarah') }}" class="{{ request()->is('page/sejarah') ? 'dropdown current' : '' }}">Sejarah</a></li>
                                         <li><a href="{{ url('page/profil-rsud') }}" class="{{ request()->is('page/profil-rsud') ? 'dropdown current' : '' }}">Profil</a></li>
                                         <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi dan Misi</a></li>
-                                        <li><a href="{{ url('page/struktur-organisasi') }}" class="{{ request()->is('page/struktur-organisasi') ? 'dropdown current' : '' }}">Struktur Organisasi</a></li> 
-                                        <li><a href="{{ url('page/profil-direktur-rsud') }}" class="{{ request()->is('page/profil-direktur-rsud') ? 'dropdown current' : '' }}">Profil Direktur RSUD</a></li>                                        
+                                        <li><a href="{{ url('page/struktur-organisasi') }}" class="{{ request()->is('page/struktur-organisasi') ? 'dropdown current' : '' }}">Struktur Organisasi</a></li>
+                                        <li><a href="{{ url('page/maklumat-pelayanan') }}" class="{{ request()->is('page/maklumat-pelayanan') ? 'dropdown current' : '' }}">Maklumat Pelayanan</a></li>
+                                        <li><a href="{{ url('page/penghargaan') }}" class="{{ request()->is('page/penghargaan') ? 'dropdown current' : '' }}">Penghargaan</a></li> 
+                                        <li><a href="{{ url('page/profil-direktur-rsud') }}" class="{{ request()->is('page/profil-direktur-rsud') ? 'dropdown current' : '' }}">Profil Direktur RSUD</a></li>
+                                        <li><a href="{{ url('page/denah-dan-lokasi') }}" class="{{ request()->is('page/denah-dan-lokasi') ? 'dropdown current' : '' }}">Denah dan Lokasi</a></li>                                        
                                         <!-- <li><a href="{{ url('page/pemerintah-batanghari') }}" class="{{ request()->is('page/pemerintah-batanghari') ? 'dropdown current' : '' }}">Pemerintahan Batanghari</a></li>
                                         <li><a href="{{ url('page/akuntabiltas-pemerintahan') }}" class="{{ request()->is('page/akuntabiltas-pemerintahan') ? 'dropdown current' : '' }}">Akuntabiltas Pemerintahan</a></li>
                                         <li><a href="{{ url('page/akuntabiltas-pelaporan') }}" class="{{ request()->is('page/akuntabiltas-pelaporan') ? 'dropdown current' : '' }}">Akuntabiltas Pelaporan</a></li> -->
@@ -194,17 +198,31 @@ $currentMonth = Carbon::now();
                                     </ul>
                                 </li>
                                 <li class="dropdown {{ request()->is('/') ? 'dropdown current' : '' }}">
-                                    <a href="{{ url('/') }}">Layanan</a>
+                                    <a href="{{ url('/') }}">Fasilitas dan Layanan</a>
                                     <ul>
-                                        <li><a href="{{ url('page/standar-pelayanan-publik') }}" class="{{ request()->is('page/standar-pelayanan-publik') ? 'dropdown current' : '' }}">Standar Pelayanan Publik</a></li>
-                                        <li><a href="{{ url('page/maklumat-pelayanan') }}" class="{{ request()->is('page/maklumat-pelayanan') ? 'dropdown current' : '' }}">Maklumat Pelayanan</a></li>                                   
+                                        <li><a href="{{ url('page/rawat-jalan') }}" class="{{ request()->is('page/rawat-jalan') ? 'dropdown current' : '' }}">Rawat jalan</a></li>
+                                        <li><a href="{{ url('page/rawat-inap') }}" class="{{ request()->is('page/rawat-inap') ? 'dropdown current' : '' }}">Rawat Inap</a></li>
+                                        <li><a href="{{ url('page/pelayanan-penunjang') }}" class="{{ request()->is('page/pelayanan-penunjang') ? 'dropdown current' : '' }}">Pelayanan Penunjang</a></li>
+                                        <li><a href="{{ url('page/fasilitas') }}" class="{{ request()->is('page/fasilitas') ? 'dropdown current' : '' }}">Fasilitas</a></li>                                   
                                     </ul>
                                 </li>
                                 <li class="dropdown {{ request()->is('/') ? 'dropdown current' : '' }}">
-                                    <a href="{{ url('/') }}">Publikasi</a>
+                                    <a href="{{ url('/') }}">Pasien dan Pengunjung</a>
                                     <ul>
-                                        <li><a href="https://sidia.batangharikab.go.id">Open Data</a></li>                                       
-                                        <li><a href="{{ url('galeri-foto') }}" class="{{ request()->is('galeri-foto*') ? 'dropdown current' : '' }}">Seputar {{config('app.nama_pic')}}</a></li>                                      
+                                        <li><a href="{{ url('page/survei-kepuasan-masyarakat') }}" class="{{ request()->is('page/survei-kepuasan-masyarakat') ? 'dropdown current' : '' }}">Survei Kepuasan Masyarakat</a></li>
+                                        <li><a href="{{ url('page/alur-pendaftaran-pasien') }}" class="{{ request()->is('page/alur-pendaftaran-pasien') ? 'dropdown current' : '' }}">Alur Pendaftaran Pasien</a></li>
+                                        <li><a href="{{ url('page/tata-tertib-dan-jam-berkunjung') }}" class="{{ request()->is('page/tata-tertib-dan-jam-berkunjung') ? 'dropdown current' : '' }}">Tata Tertib dan Jam Berkunjung</a></li>
+                                        <li><a href="{{ url('page/jadwal-poliklinik') }}" class="{{ request()->is('page/jadwal-poliklinik') ? 'dropdown current' : '' }}">Jadwal Poliklinik</a></li>
+                                        <li><a href="{{ url('page/tarif-pelayanan') }}" class="{{ request()->is('page/tarif-pelayanan') ? 'dropdown current' : '' }}">Tarif Pelayanan</a></li>
+                                        <li><a href="{{ url('page/rujukan-gawat-darurat') }}" class="{{ request()->is('page/rujukan-gawat-darurat') ? 'dropdown current' : '' }}">Rujukan Gawat Darurat</a></li>                                                                            
+                                    </ul>
+                                </li>
+                                <li class="dropdown {{ request()->is('/') ? 'dropdown current' : '' }}">
+                                    <a href="{{ url('/') }}">Informasi Publik</a>
+                                    <ul>
+                                        <li><a href="{{ url('page/jadwal-dokter') }}" class="{{ request()->is('page/jadwal-dokter') ? 'dropdown current' : '' }}">Jadwal Dokter</a></li>
+                                        <li><a href="{{ url('page/informasi-publik') }}" class="{{ request()->is('page/informasi-publik') ? 'dropdown current' : '' }}">Informasi Publik</a></li>                                       
+                                        <li><a href="{{ url('berita') }}" class="{{ request()->is('galeri-foto*') ? 'dropdown current' : '' }}">Seputar {{config('app.nama_pic')}}</a></li>                                      
                                     </ul>
                                 </li>
                                         <li class="dropdown {{ request()->is('/') ? 'dropdown current' : '' }}">
@@ -307,12 +325,12 @@ $currentMonth = Carbon::now();
                         <div class="col-xl-2 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__newsletter">
                                 <div class="footer-widget__title-box">
-                                    <h4 class="footer-widget__title">Kepala Dinas</h4>
+                                    <h4 class="footer-widget__title">Direktur</h4>
                                 </div>
                                 <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
-                            <img src="{{ asset('img/kepala1.jpeg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
+                            <img src="{{ asset('img/kepala_1.jpg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
                             <p style="margin-top: 10px; font-size: 14px; color: #fff; font-weight: 600;">{{config('app.nama_kadis')}}</p>
-                            <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Kepala {{config('app.nama_pic')}}</p>
+                            <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Kepala {{config('app.nama_pic2')}}</p>
                                    </div>
                                    <!-- <br>
                                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100068441723342" data-tabs="timeline" data-width="50" data-height="50" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100068441723342" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100068441723342">Batanghari Jambi</a></blockquote></div> -->

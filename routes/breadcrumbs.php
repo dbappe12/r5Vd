@@ -49,6 +49,20 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'standar-pelayanan-publik' => 'Standar Pelayanan Publik',
         'maklumat-pelayanan' => 'Maklumat Pelayanan',
         'profil-rsud' => 'Profil RSUD',
+        'penghargaan' => 'Penghargaan',
+        'denah-dan-lokasi' => 'Denah dan Lokasi',
+        'rawat-jalan' => 'Rawat Jalan',
+        'rawat-inap' => 'Rawat Inap',
+        'pelayanan-penunjang' => 'Pelayanan Penunjang',
+        'fasilitas' => 'Fasilitas',
+        'survei-kepuasan-masyarakat' => 'Survei Kepuasan Masyarakat',
+        'alur-pendaftaran-pasien' => 'Alur Pendaftaran Pasien',
+        'tata-tertib-dan-jam-berkunjung' => 'Tata Tertib dan Jam Berkunjung',
+        'jadwal-poliklinik' => 'Jadwal Poliklinik',
+        'tarif-pelayanan' => 'Tarif Pelayanan',
+        'rujukan-gawat-darurat' => 'Rujukan Gawat Darurat',
+        'jadwal-dokter' => 'Jadwal Dokter',
+        'informasi-publik' => 'Informasi Publik',
 
     ];
 
