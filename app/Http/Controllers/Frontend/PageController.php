@@ -114,7 +114,7 @@ class PageController extends Controller
             'survei-kepuasan-masyarakat' => 'Content of Survei Kepuasan Masyarakat page',
             'alur-pendaftaran-pasien' => 'Content of Alur Pendaftaran Pasien page',
             'tata-tertib-dan-jam-berkunjung' => 'Content of Tata Tertib dan Jam Berkunjung page',
-            'jadwal-poliklinik' => 'Content of Jadwal Poliklinik page',
+            // 'jadwal-poliklinik' => 'Content of Jadwal Poliklinik page',
             'tarif-pelayanan' => 'Content of Tarif Pelayanan page',
             'rujukan-gawat-darurat' => 'Content of Rujukan Gawat Darurat page',
             'jadwal-dokter' => 'Content of Jadwal Dokter page',

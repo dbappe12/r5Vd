@@ -213,7 +213,7 @@ $currentMonth = Carbon::now();
                                         <li><a href="{{ url('page/survei-kepuasan-masyarakat') }}" class="{{ request()->is('page/survei-kepuasan-masyarakat') ? 'dropdown current' : '' }}">Survei Kepuasan Masyarakat</a></li>
                                         <li><a href="{{ url('page/alur-pendaftaran-pasien') }}" class="{{ request()->is('page/alur-pendaftaran-pasien') ? 'dropdown current' : '' }}">Alur Pendaftaran Pasien</a></li>
                                         <li><a href="{{ url('page/tata-tertib-dan-jam-berkunjung') }}" class="{{ request()->is('page/tata-tertib-dan-jam-berkunjung') ? 'dropdown current' : '' }}">Tata Tertib dan Jam Berkunjung</a></li>
-                                        <li><a href="{{ url('page/jadwal-poliklinik') }}" class="{{ request()->is('page/jadwal-poliklinik') ? 'dropdown current' : '' }}">Jadwal Poliklinik</a></li>
+                                        <!-- <li><a href="{{ url('page/jadwal-poliklinik') }}" class="{{ request()->is('page/jadwal-poliklinik') ? 'dropdown current' : '' }}">Jadwal Poliklinik</a></li> -->
                                         <li><a href="{{ url('page/tarif-pelayanan') }}" class="{{ request()->is('page/tarif-pelayanan') ? 'dropdown current' : '' }}">Tarif Pelayanan</a></li>
                                         <li><a href="{{ url('page/rujukan-gawat-darurat') }}" class="{{ request()->is('page/rujukan-gawat-darurat') ? 'dropdown current' : '' }}">Rujukan Gawat Darurat</a></li>                                                                            
                                     </ul>
@@ -332,7 +332,7 @@ $currentMonth = Carbon::now();
                                 <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
                             <img src="{{ asset('img/kepala_1.jpg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
                             <p style="margin-top: 10px; font-size: 14px; color: #fff; font-weight: 600;">{{config('app.nama_kadis')}}</p>
-                            <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Kepala {{config('app.nama_pic2')}}</p>
+                            <p style="font-size: 12px; color: #ccc; white-space: nowrap;">Direktur {{config('app.nama_pic2')}}</p>
                                    </div>
                                    <!-- <br>
                                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100068441723342" data-tabs="timeline" data-width="50" data-height="50" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100068441723342" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100068441723342">Batanghari Jambi</a></blockquote></div> -->
