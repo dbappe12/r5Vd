@@ -112,7 +112,7 @@ class PageController extends Controller
             'pelayanan-penunjang' => 'Content of Pelayanan Penunjang page',
             'fasilitas' => 'Content of Fasilitas page',
             'survei-kepuasan-masyarakat' => 'Content of Survei Kepuasan Masyarakat page',
-            'alur-pendaftaran-pasien' => 'Content of Alur Pendaftaran Pasien page',
+            // 'alur-pendaftaran-pasien' => 'Content of Alur Pendaftaran Pasien page',
             'tata-tertib-dan-jam-berkunjung' => 'Content of Tata Tertib dan Jam Berkunjung page',
             // 'jadwal-poliklinik' => 'Content of Jadwal Poliklinik page',
             'tarif-pelayanan' => 'Content of Tarif Pelayanan page',
@@ -120,6 +120,7 @@ class PageController extends Controller
             'jadwal-dokter' => 'Content of Jadwal Dokter page',
             'informasi-publik' => 'Content of Informasi Publik page',
             'standar-pelayanan' => 'Content of Standar Pelayanan page',
+            'alur-pelayanan' => 'Content of Alur Pelayanan page',
 
         ];
 

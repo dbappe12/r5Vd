@@ -211,7 +211,7 @@ $currentMonth = Carbon::now();
                                     <a href="{{ url('/') }}">Pasien dan Pengunjung</a>
                                     <ul>
                                         <li><a href="{{ url('page/survei-kepuasan-masyarakat') }}" class="{{ request()->is('page/survei-kepuasan-masyarakat') ? 'dropdown current' : '' }}">Survei Kepuasan Masyarakat</a></li>
-                                        <li><a href="{{ url('page/alur-pendaftaran-pasien') }}" class="{{ request()->is('page/alur-pendaftaran-pasien') ? 'dropdown current' : '' }}">Alur Pendaftaran Pasien</a></li>
+                                        <li><a href="{{ url('page/alur-pelayanan') }}" class="{{ request()->is('page/alur-pelayanan') ? 'dropdown current' : '' }}">Alur Pelayanan</a></li>
                                         <li><a href="{{ url('page/tata-tertib-dan-jam-berkunjung') }}" class="{{ request()->is('page/tata-tertib-dan-jam-berkunjung') ? 'dropdown current' : '' }}">Tata Tertib dan Jam Berkunjung</a></li>
                                         <!-- <li><a href="{{ url('page/jadwal-poliklinik') }}" class="{{ request()->is('page/jadwal-poliklinik') ? 'dropdown current' : '' }}">Jadwal Poliklinik</a></li> -->
                                         <li><a href="{{ url('page/tarif-pelayanan') }}" class="{{ request()->is('page/tarif-pelayanan') ? 'dropdown current' : '' }}">Tarif Pelayanan</a></li>

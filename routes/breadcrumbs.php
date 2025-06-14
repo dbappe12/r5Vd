@@ -56,7 +56,7 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'pelayanan-penunjang' => 'Pelayanan Penunjang',
         'fasilitas' => 'Fasilitas',
         'survei-kepuasan-masyarakat' => 'Survei Kepuasan Masyarakat',
-        'alur-pendaftaran-pasien' => 'Alur Pendaftaran Pasien',
+        'alur-pelayanan' => 'Alur Pelayanan',
         'tata-tertib-dan-jam-berkunjung' => 'Tata Tertib dan Jam Berkunjung',
         // 'jadwal-poliklinik' => 'Jadwal Poliklinik',
         'tarif-pelayanan' => 'Tarif Pelayanan',
